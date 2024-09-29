@@ -1,0 +1,4 @@
+shiny
+shinyswatch
+byaldi
+pdf2image = "^1.17.0"
