@@ -27,7 +27,8 @@ def app_ui():
                 "1. Import Documents", import_documents_ui("import_documents")
             ),
             ui.nav_panel("2. Query documents", query_documents_ui("query_documents")),
-            title="# ColPali # ",
+            ui.nav_panel("3. Chat with documents", placeholder("query_documents")),
+            title="# Shiny - ColPali # ",
         ),
         theme=shinyswatch.theme.sandstone,
     )
